@@ -1,0 +1,75 @@
+body {
+    background-color: rgb(21, 75, 138);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    flex-direction: column; /* Orientação da direção para os itens, nesse caso, em colunas ao invés de linhas */
+    display: flex; /* Para deixar o display flexível e personalizável */
+    margin: 0;
+    padding: 0;
+}
+
+/* Ajuste na seção */
+.secao {
+    position: relative;
+    top: -460px;
+    z-index: 80;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; /* Permite que as colunas se ajustem conforme o tamanho da tela */
+    margin-top: 100px;
+    gap: 20px; /* Espaço entre as colunas */
+}
+
+/* Ajuste na individual */
+.secao-individual {
+    background: rgba(255, 255, 255, 0.801);
+    padding: 20px;
+    border-radius: 10px;
+    flex: 1 1 calc(33.333% - 20px); /* Tamanho flexível para 3 colunas, com espaçamento */
+    box-sizing: border-box; /* Para garantir que o padding não sobrecarregue a largura */
+    margin: 10px;
+    min-width: 280px; /* Garante que as colunas não fiquem muito estreitas em telas pequenas */
+}
+
+.alert-heading {
+    font-style: oblique;
+    font-weight: bold;
+    font-size: 1.8rem; /* Ajustado para um tamanho mais razoável */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
+    margin: 10px 0;
+}
+
+p {
+    font-style: normal;
+    font-weight: 200;
+    font-size: 1.2rem; /* Ajustado para um tamanho mais adequado */
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10px;
+    color: black;
+}
+
+hr {
+    text-align: center;
+    margin-left: 22px;
+    max-width: 90%;
+}
+
+.creditos {
+    font-size: 1rem; /* Mantido tamanho pequeno para créditos */
+}
+
+footer {
+    text-align: center;
+    padding: 18px;
+    background-color: rgb(0, 0, 0);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 160px;
+}
+
+.texto-rodape {
+    font-size: 1rem;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}

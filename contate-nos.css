@@ -1,0 +1,70 @@
+body{
+    background-image: url('img/escritorio.avif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    flex-direction: column; /*orientação da direção para os itens, nesse caso em colunas ao invés de linhas*/
+    display: flex; /*para deixar o display flexível e personalizável*/
+}
+section{
+    background: white;
+    padding: 5px;
+    width: 10%;
+    border-radius: 10px;
+    flex: 3;
+    margin: 10px;
+    transition: transform 0.9s ease, background-color 0.9s ease; /*transição de uma cor para outra*/
+    transition: color 0.9s;
+}
+section:hover{
+    background-color: black; /*cor final*/
+    color: white;
+    transform: scale(1.05);
+}
+#secao{
+    display:flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+#secao2{
+    display:flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+#secao3{
+    display:flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+#secao4{
+    display:flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+hr{
+    text-align: center;
+    margin-left: 22px;
+    max-width: 90%;
+}
+h2{
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+    padding: 18px;
+    background-color: rgb(0, 0, 0);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    height: 160px;
+    
+
+}
+
+.texto-rodape{
+    font-size: 1rem;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
