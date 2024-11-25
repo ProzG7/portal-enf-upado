@@ -3,7 +3,7 @@ body {
     background-color: #f4f4f4;
     margin: 0;
     padding: 0;
-    background-image: url('img/escritorio.avif');
+    background-image: url('escritorio.avif');
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
